@@ -8,5 +8,4 @@ struct Circle {
   glm::vec2 position;
 };
 
-
 #endif
