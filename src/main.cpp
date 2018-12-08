@@ -4,8 +4,8 @@
 
 #include <glm/vec2.hpp>
 
-#include "headers/aabb.h"
-#include "headers/circle.h"
+#include "../include/aabb.h"
+#include "../include/circle.h"
 
 float Distance2D(glm::vec2 a, glm::vec2 b) {
   return sqrt(pow((a.x - b.x), 2) + pow((a.y - b.y), 2));
